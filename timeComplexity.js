@@ -1,6 +1,6 @@
 let array = [3,1,3,4,4,5,3,5,3,3,3,6,3];
 let solveValues = [];
-
+function time(array,solveValues){
 for (let i =  array.length; i >=0; i --) {
  if(!solveValues.includes(array[i])){
      solveValues.push(array[i]);
@@ -11,3 +11,4 @@ for (let i =  array.length; i >=0; i --) {
  }
 }
 return console.log("The array does not contain a majority element.");
+}
