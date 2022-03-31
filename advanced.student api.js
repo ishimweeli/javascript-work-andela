@@ -23,4 +23,4 @@
 
  let student = {name:"Eric" }
 
- setStudentAgeApi(student,-20).then(data => console.log(data)).catch(err => console.log(err));
+ setStudentAgeApi(student,10).then(data => console.log(data)).catch(err => console.log(err));
